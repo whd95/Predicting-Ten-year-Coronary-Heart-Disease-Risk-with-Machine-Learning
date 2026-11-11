@@ -1,12 +1,16 @@
-Predicting Ten-Year Coronary Heart Disease Risk with Machine Learning
+(Predicting Ten-Year Coronary Heart Disease Risk with Machine Learning)
 
-Project Overview
+
+
+
+Project Overview:
 
 This project presents an end-to-end Machine Learning approach for predicting the risk of developing Coronary Heart Disease (CHD) within ten years.
 
 The project uses data from the Framingham Heart Study, consisting of 4,238 records and 15 clinical and behavioral features. The main objective is to develop and evaluate predictive models that can estimate an individual’s ten-year risk of coronary heart disease based on demographic information, medical history, lifestyle factors, and clinical measurements.
 
-Project Objectives
+
+Project Objectives:
 
 * Develop a complete data preprocessing and machine learning pipeline.
 * Handle missing values and investigate outliers.
@@ -16,9 +20,14 @@ Project Objectives
 * Evaluate model performance using appropriate classification metrics.
 * Interpret the final model and discuss its limitations.
 
-Dataset Description
+
+
+
+Dataset Description:
 
 The dataset contains 4,238 records and 16 columns, including 15 predictive features and one target variable (TenYearCHD).
+
+
 
 The features include:
 
@@ -27,7 +36,9 @@ The features include:
 * Medical History: Blood Pressure Medication, Previous Stroke, Hypertension, Diabetes.
 * Clinical Measurements: Total Cholesterol, Systolic Blood Pressure, Diastolic Blood Pressure, BMI, Heart Rate, and Glucose.
 
-Methodology
+
+
+Methodology:
 
 The project follows a seven-step machine learning workflow:
 
@@ -41,7 +52,9 @@ The project follows a seven-step machine learning workflow:
 
 Special attention was given to preventing data leakage by fitting preprocessing operations exclusively on training data.
 
-Machine Learning Algorithms
+
+
+Machine Learning Algorithms:
 
 The following algorithms were implemented and compared:
 
@@ -56,9 +69,12 @@ Ensemble learning techniques, including Stacking and Soft Voting, were also eval
 
 Hyperparameter tuning was performed using RandomizedSearchCV and cross-validation.
 
-Final Model and Results
+
+
+Final Model and Results:
 
 Logistic Regression was selected as the final model due to its simplicity, interpretability, and probability calibration.
+
 
 The final model achieved the following results on the held-out test dataset:
 
@@ -71,7 +87,8 @@ Precision	0.24
 Specificity	0.70
 Accuracy	0.67
 
-Technologies Used
+
+Technologies Used:
 
 * Python 3.12
 * Pandas
@@ -80,13 +97,13 @@ Technologies Used
 * Matplotlib
 * Seaborn
 
-Project Team
+
+Project Team:
 
 Prepared by:
-
-* Kawakib Salih Mahdi
-* Wahad Raad Falih
-* Zeina Khalid Jaber
+Kawakib Salih Mahdi
+Wahad Raad Falih
+Zeina Khalid Jaber
 
 Supervised by:
 Prof. Dr. Ali Gamal
@@ -95,12 +112,16 @@ Institution: Almaaqal International University (AMIU)
 Faculty: Faculty of Engineering
 Department: AI Engineering Department
 
-Limitations and Disclaimer
+
+
+Limitations and Disclaimer:
 
 This project is developed for academic and educational purposes. The model has limitations, including class imbalance, missing clinical variables, limited test-set size, and the absence of external validation.
 
 This model is not intended for clinical diagnosis or medical decision-making. Its predictions should not be considered a substitute for professional medical evaluation.
 
-Conclusion
+
+
+Conclusion:
 
 This project demonstrates a complete machine learning workflow for predicting ten-year coronary heart disease risk. The experimental results show that Logistic Regression provides a simple and interpretable approach, while also highlighting the limitations of predictive performance when using the available dataset and features.
